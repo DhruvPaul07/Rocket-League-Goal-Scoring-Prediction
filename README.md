@@ -21,7 +21,7 @@ A binary classification project predicting whether a team will score within the 
 
 Download `train_0.csv` from the Kaggle competition page below and update the path in the script:
 
-**Dataset:** [https://www.kaggle.com/competitions/rocketleague/data](https://www.kaggle.com/competitions/rocketleague/data)
+**Dataset:** [https://www.kaggle.com/competitions/rocketleague/data](https://www.kaggle.com/competitions/tabular-playground-series-oct-2022)
 
 ```python
 DATA_PATH = '/path/to/train_0.csv'
