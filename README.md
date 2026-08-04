@@ -1,4 +1,4 @@
-# Rocket League Goal-Scoring Prediction
+## Rocket League Goal-Scoring Prediction
 
 **Course:** IB Computer Science HL — Final Machine Learning Project
 **Year:** Senior Year
@@ -19,7 +19,9 @@ A binary classification project predicting whether a team will score within the 
 
 ## Required Dataset
 
-Download `train_0.csv` from Kaggle and update the path in the script:
+Download `train_0.csv` from the Kaggle competition page below and update the path in the script:
+
+**Dataset:** [https://www.kaggle.com/competitions/rocketleague/data](https://www.kaggle.com/competitions/rocketleague/data)
 
 ```python
 DATA_PATH = '/path/to/train_0.csv'
@@ -123,3 +125,4 @@ ROC curves comparing both models against a random baseline. AUC scores above 0.5
 ![Confusion Matrices](rl_confusion_matrices.png)
 
 Confusion matrices showing predicted vs. true class for both models. The `class_weight='balanced'` setting ensures neither model collapses to predicting the majority class (no score) for every frame.
+oading README_RocketLeague_Updated (1).md…]()
